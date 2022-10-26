@@ -174,10 +174,57 @@ function App() {
                 <div className="col-md-6 project-box-info-1">
                   <h2>Web Designer Landing Page</h2>
                   <p className="project-box-info-text-1">Designed a landing page for a made up graphic design company</p>
+                  <a className='fancy-link' href='https://regase.github.io/designer-landing-page/' rel="noreferrer" target="_blank">
+                    <button className='btn btn-primary-1'>Check it out here</button>
+                  </a>
 
 
                   <p className="project-box-info-text-bottom-1">
-                    Made with React.js, Bootstrap.<br></br>
+                    Made with React.js, Bootstrap<br></br>
+                    Designed with Affinity Designer <span className="tiny-text">(Adobe Illustrator alternative)</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-end">
+            <div className="col-md-10 box-lighter-1 project-box-1 box-to-slide-in-1">
+              <div className="row">
+                <div className="col-md-6 project-box-info-1">
+                  <h2>SVG Design App</h2>
+                  <p className="project-box-info-text-1">A little project where you can modify svg graphic by choosing colors and background colors.</p>
+
+                  <p className="project-box-info-text-bottom-1">
+                    Made with React.js and Bootstrap<br></br>
+                  </p>
+                </div>
+                <div className="col-md-6 pad-0">
+                  <img className="img-fluid" src="./images/web-designer-site-9.gif" alt="Failed loading..." />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="col-sm-12 col-md-10 box-lighter-1 project-box-1 box-to-slide-in-1-left">
+              <div className="row">
+                <div className="col-md-6 pad-0">
+                  <div className='row'>
+                    <div className='col-md-6 pad-0'>
+                      <img className="img-fluid" src="./images/web-designer-site-7.jpg" alt="Failed loading..." />
+                    </div>
+                    <div className='col-md-6 pad-0'>
+                      <img className="img-fluid" src="./images/web-designer-site-8.png" alt="Failed loading..." />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 project-box-info-1">
+                  <h2>A Gallery Page</h2>
+                  <p className="project-box-info-text-1">Designed a little website to showcase some photos</p>
+                  {/* <a className='fancy-link' href='https://regase.github.io/designer-landing-page/' rel="noreferrer" target="_blank">Check it out here</a> */}
+
+
+                  <p className="project-box-info-text-bottom-1">
+                    Made with React.js, Bootstrap<br></br>
                     Designed with Affinity Designer <span className="tiny-text">(Adobe Illustrator alternative)</span>
                   </p>
                 </div>

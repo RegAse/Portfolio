@@ -168,3 +168,20 @@ span svg{
   background-color: rgb(47, 81, 125);
   padding: 0.4em;
 }
+
+.fancy-link {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.btn-primary-1 {
+  background-color: rgb(146, 96, 96);
+  border-radius: 2%;
+  color: white;
+}
+
+.btn-primary-1:hover {
+  background-color: rgb(216, 147, 147) !important;
+  color: white !important;
+
+}
