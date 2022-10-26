@@ -193,6 +193,9 @@ function App() {
                 <div className="col-md-6 project-box-info-1">
                   <h2>SVG Design App</h2>
                   <p className="project-box-info-text-1">A little project where you can modify svg graphic by choosing colors and background colors.</p>
+                  <a className='fancy-link' href='https://regase.github.io/svg-design-app/' rel="noreferrer" target="_blank">
+                    <button className='btn btn-primary-1'>Check it out here</button>
+                  </a>
 
                   <p className="project-box-info-text-bottom-1">
                     Made with React.js and Bootstrap<br></br>
